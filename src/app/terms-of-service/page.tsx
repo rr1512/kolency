@@ -34,10 +34,10 @@ export default function TermsOfService() {
             <section className="mb-8">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Acceptance of Terms</h2>
               <p className="text-gray-700 mb-4">
-                By accessing and using Kolency's social media collaboration platform and related services (collectively, the "Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                By accessing and using Kolency&apos;s social media collaboration platform and related services (collectively, the &quot;Service&quot;), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
               </p>
               <p className="text-gray-700">
-                These Terms of Service ("Terms") govern your use of our Service operated by Kolency ("we," "us," or "our"). Your use of the Service constitutes acceptance of these Terms.
+                These Terms of Service (&quot;Terms&quot;) govern your use of our Service operated by Kolency (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;). Your use of the Service constitutes acceptance of these Terms.
               </p>
             </section>
 
@@ -161,7 +161,7 @@ export default function TermsOfService() {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">5.2 Platform Compliance</h3>
               <p className="text-gray-700 mb-4">You agree to:</p>
               <ul className="list-disc pl-6 text-gray-700 mb-4">
-                <li>Comply with each platform's terms of service</li>
+                <li>Comply with each platform&apos;s terms of service</li>
                 <li>Respect platform-specific content guidelines</li>
                 <li>Not exceed platform rate limits or usage restrictions</li>
                 <li>Maintain valid and active social media accounts</li>
@@ -177,7 +177,7 @@ export default function TermsOfService() {
                 <li><strong>Grant us a license</strong> to process and publish your content</li>
                 <li><strong>Confirm you have the rights</strong> to the content you publish</li>
                 <li><strong>Are responsible</strong> for the accuracy, legality, and compliance of your content</li>
-                <li><strong>Agree not to publish content</strong> that infringes on others' rights or violates any laws</li>
+                <li><strong>Agree not to publish content</strong> that infringes on others&apos; rights or violates any laws</li>
                 <li><strong>Must ensure compliance</strong> with all applicable laws, regulations, and social media platform policies</li>
                 <li><strong>Are responsible for any consequences</strong> resulting from your published content, including but not limited to legal or regulatory actions</li>
                 <li><strong>Must respect generally accepted cultural, religious, and social norms</strong> in all content you publish</li>

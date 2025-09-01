@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   description: "Kolency is the ultimate platform for teams to collaborate on social media content. Schedule, publish, and manage your social presence together with powerful team collaboration features.",
   keywords: "social media, collaboration, team management, content scheduling, social media marketing, buffer alternative, publer alternative",
   authors: [{ name: "Kolency Team" }],
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.ico", sizes: "16x16", type: "image/x-icon" },
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
   openGraph: {
     title: "Kolency - Social Media Collaboration Platform",
     description: "The ultimate platform for teams to collaborate on social media content. Schedule, publish, and manage your social presence together.",

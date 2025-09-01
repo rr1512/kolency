@@ -21,25 +21,19 @@ export default function Home() {
               <Link href="#integrations" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Integrations
               </Link>
-              <Link href="#pricing" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Pricing
-              </Link>
-              <Link href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">
-                About
-              </Link>
-              <Link href="#blog" className="text-gray-600 hover:text-gray-900 transition-colors">
-                Blog
-              </Link>
+
+
+
               <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Contact
               </Link>
               <a href="https://help.kolency.com" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Help
               </a>
-              <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition-colors font-bold">
                 Privacy Policy
               </Link>
-              <Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 transition-colors">
+              <Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 transition-colors font-bold">
                 Terms of Service
               </Link>
             </div>
@@ -357,7 +351,7 @@ export default function Home() {
       </section>
 
       {/* Social Media Integration Section */}
-      <section className="py-20 bg-white">
+      <section id="integrations" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -569,161 +563,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Simple, Transparent Pricing
-            </h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Choose the plan that fits your team size and needs. All plans include our core features.
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {/* Starter Plan */}
-            <div className="bg-white border border-gray-200 rounded-xl p-8">
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-2">Starter</h3>
-                <p className="text-gray-600 mb-6">Perfect for small teams</p>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">$29</span>
-                  <span className="text-gray-600">/month</span>
-                </div>
-                <ul className="space-y-3 mb-8 text-left">
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Up to 5 team members
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    10 social accounts
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Basic analytics
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Content calendar
-                  </li>
-                </ul>
-                <a href="https://app.kolency.com/register" className="w-full bg-black text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors block">
-                  Start Free Trial
-                </a>
-              </div>
-            </div>
 
-            {/* Professional Plan */}
-            <div className="bg-white border-2 border-black rounded-xl p-8 relative">
-              <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                <span className="bg-black text-white px-4 py-1 rounded-full text-sm font-semibold">
-                  Most Popular
-                </span>
-              </div>
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-2">Professional</h3>
-                <p className="text-gray-600 mb-6">For growing businesses</p>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">$79</span>
-                  <span className="text-gray-600">/month</span>
-                </div>
-                <ul className="space-y-3 mb-8 text-left">
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Up to 20 team members
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    25 social accounts
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Advanced analytics
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Approval workflows
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Priority support
-                  </li>
-                </ul>
-                <a href="https://app.kolency.com/register" className="w-full bg-black text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors block">
-                  Start Free Trial
-                </a>
-              </div>
-            </div>
-
-            {/* Enterprise Plan */}
-            <div className="bg-white border border-gray-200 rounded-xl p-8">
-              <div className="text-center">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-2">Enterprise</h3>
-                <p className="text-gray-600 mb-6">For large organizations</p>
-                <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">$199</span>
-                  <span className="text-gray-600">/month</span>
-                </div>
-                <ul className="space-y-3 mb-8 text-left">
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Unlimited team members
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Unlimited social accounts
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    Custom analytics
-                  </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    SSO & advanced security
-          </li>
-                  <li className="flex items-center">
-                    <svg className="w-5 h-5 text-green-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    24/7 dedicated support
-          </li>
-                </ul>
-                <Link href="/contact" className="w-full bg-black text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-800 transition-colors block">
-                  Contact Sales
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="py-20 bg-white">
@@ -782,7 +622,7 @@ export default function Home() {
               <h4 className="text-lg font-semibold mb-4">Product</h4>
               <ul className="space-y-2">
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Features</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Integrations</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">API</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Changelog</a></li>
@@ -793,8 +633,8 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold mb-4">Company</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blogs</a></li>
+
+
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
                 <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Press</a></li>
@@ -808,8 +648,8 @@ export default function Home() {
               © 2024 Kolency. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
-              <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</Link>
-              <Link href="/terms-of-service" className="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</Link>
+              <Link href="/privacy-policy" className="text-gray-400 hover:text-white text-sm transition-colors font-bold">Privacy Policy</Link>
+              <Link href="/terms-of-service" className="text-gray-400 hover:text-white text-sm transition-colors font-bold">Terms of Service</Link>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">Cookie Policy</a>
             </div>
           </div>

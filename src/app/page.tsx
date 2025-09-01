@@ -33,6 +33,15 @@ export default function Home() {
               <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition-colors">
                 Contact
               </Link>
+              <a href="https://help.kolency.com" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Help
+              </a>
+              <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/terms-of-service" className="text-gray-600 hover:text-gray-900 transition-colors">
+                Terms of Service
+              </Link>
             </div>
             <div className="flex items-center space-x-4">
               <a href="https://app.kolency.com" className="text-gray-600 hover:text-gray-900 transition-colors">
@@ -73,8 +82,7 @@ export default function Home() {
             {/* Subtitle */}
             <p className="text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mb-10 leading-relaxed">
               Kolency is the ultimate platform for teams to collaborate on social media content. 
-              <span className="font-semibold text-gray-900"> Schedule, publish, and manage your social presence together</span> - 
-              just like Buffer and Publer, but with powerful team collaboration features.
+              <span className="font-semibold text-gray-900"> Schedule, publish, and manage your social presence together</span>.
             </p>
             
             {/* CTA Buttons */}
@@ -788,8 +796,9 @@ export default function Home() {
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">About</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Blogs</a></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Careers</a></li>
-                                 <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
+                <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact</Link></li>
                 <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Press</a></li>
+                <li><a href="https://help.kolency.com" className="text-gray-400 hover:text-white transition-colors">Help</a></li>
               </ul>
             </div>
           </div>
